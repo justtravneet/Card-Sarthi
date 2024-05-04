@@ -42,7 +42,7 @@ const Recommend = () => {
           </div>
 
           <div className='flex justify-center items-center py-4 lg:mt-[20px]'>
-            <p className='text-[12px] lg:text-[15px]'><span className=' bg-red'>*</span>Note: Product suggestions can be obtained without providing your mobile number</p>
+            <p className='text-[12px] lg:text-[15px]'><span className='texts'>*</span>Note: Product suggestions can be obtained without providing your mobile number</p>
           </div>
     </div>
   )
