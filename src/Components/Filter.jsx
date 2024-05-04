@@ -55,40 +55,40 @@ const Filter = () => {
 
             {/* desktop side */}
 
-            <div className=' filters xl:px-[200px] i items-center mt-[70px]'>
+            <div className=' filters xl:px-[100px]  items-center mt-[70px]'>
                   <div className='   bg-light py-2 flex   justify-center gap-2 '>
                           <div className='w-[140px] h-[140px] flex flex-col  items-center justify-center py-2 px-1'>
-                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><CreditCard size={26} strokeWidth={2.5} /></div>
+                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><CreditCard size={26} strokeWidth={1} /></div>
                                   <div className='py-1 flex items-center'>
                                     <p className='text-sm'>Credit Cards</p>
                                   </div>
                           </div>
                           <div className='w-[140px] h-[140px] flex flex-col  items-center justify-center  py-2 px-1'>
-                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><Gift size={26} strokeWidth={2} /></div>
+                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><Gift size={26} strokeWidth={1} /></div>
                                   <div className='py-1 flex items-center'>
                                     <p className='text-sm'>Reward Cards</p>
                                   </div>
                           </div>
                           <div className='w-[140px] h-[140px] flex flex-col  items-center justify-center  py-2 px-1'>
-                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><ReceiptText size={26} strokeWidth={2} /></div>
+                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><ReceiptText size={26} strokeWidth={1}  /></div>
                                   <div className='py-1 flex items-center'>
                                     <p className='text-sm'>No Annual Fee Cards</p>
                                   </div>
                           </div>
                           <div className='w-[140px] h-[140px] flex flex-col  items-center justify-center  py-2 px-1'>
-                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><Banknote size={26} strokeWidth={2} /></div>
+                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><Banknote size={26}  strokeWidth={1} /></div>
                                   <div className='py-1 flex items-center'>
                                     <p className='text-sm'>Cashback Cards</p>
                                   </div>
                           </div>
                           <div className='w-[140px] h-[140px] flex flex-col  items-center justify-center  py-2 px-1'>
-                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><ShoppingCart size={26} strokeWidth={2} /></div>
+                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><ShoppingCart size={26}  strokeWidth={1} /></div>
                                   <div className='py-1 flex items-center'>
                                     <p className='text-sm'> Shopping Cards</p>
                                   </div>
                           </div>
                           <div className='w-[140px] h-[140px] flex flex-col  items-center justify-center  py-2 px-1'>
-                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><Luggage size={26} strokeWidth={2} /></div>
+                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><Luggage size={26} strokeWidth={1}  /></div>
                                   <div className='py-1 flex items-center'>
                                     <p className='text-sm'>Travel Cards</p>
                                   </div>

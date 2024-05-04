@@ -12,7 +12,7 @@ export default {
       'best':'#FEF7FF',
       'sky':'#FEEFFF80',
        'lightBlue':'#F6DCF8',
-       
+       'red':'Ff0000'
       
       
       

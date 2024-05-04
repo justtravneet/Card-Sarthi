@@ -2,8 +2,8 @@ import React from 'react'
 import {CircleArrowRight} from "lucide-react"
 const Recommend = () => {
   return (
-    <div className='px-[16px] xl:px-[200px]'>
-          <div className=' lg:ml-[80px] xl:ml-[80px] flex flex-col  lg:flex-row  justify-between py-2 lg:mt-[100px]'>
+    <div className='px-[16px] '>
+          <div className='  flex flex-col  lg:flex-row  justify-center py-2 lg:mt-[100px]'>
                <div className='py-3 flex flex-col gap-4 lg:w-[357px] lg:h-[200px] justify-between'>
                    <p className='text-xl lg:text-3xl font-bold'>Get personalized recommendations with minimal effort. </p>
                    <div className='flex items-center py-2 bg-btn w-[190px] gap-1 justify-center'>
@@ -42,7 +42,7 @@ const Recommend = () => {
           </div>
 
           <div className='flex justify-center items-center py-4 lg:mt-[20px]'>
-            <p className='text-[12px] lg:text-[15px]'>*Note: Product suggestions can be obtained without providing your mobile number</p>
+            <p className='text-[12px] lg:text-[15px]'><span className=' bg-red'>*</span>Note: Product suggestions can be obtained without providing your mobile number</p>
           </div>
     </div>
   )

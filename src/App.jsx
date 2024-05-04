@@ -9,11 +9,13 @@ import Categories from './Components/Categories'
 import Recommend from './Components/Recommend'
 import Client from './Components/Client'
 
+
 function App() {
   
 
   return (
     <>
+    
        <Nav />
        <Hero />
        <Filter />

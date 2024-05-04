@@ -2,10 +2,10 @@ import React from 'react'
 
 const Client = () => {
   return (
-    <div className='px-[16px] xl:px-[200px]'>
-          <div className=' lg:ml-[80px] flex flex-col  lg:gap-8 lg:mt-[80px]'>
-                 <div><p className='text-lg font-bold lg:text-4xl '>See what our clients are shared</p></div>
-                 <div className='flex flex-col lg:flex-row  lg:gap-10   '>
+    <div className='px-[16px]  justify-center'>
+          <div className='  flex flex-col   lg:gap-8 lg:mt-[80px] justify-center'>
+                 <div className=' justify-center flex'><p className='text-lg font-bold lg:text-4xl '>See what our clients are shared</p></div>
+                 <div className='flex flex-col lg:flex-row  lg:gap-10  justify-center  '>
                       <div className='lg:w-[400px]  '>
                                <div className='flex gap-2'>
                                     <div className='flex justify-center items-center'>
@@ -40,6 +40,12 @@ const Client = () => {
                       </div>
                       
                  </div>
+          </div>
+
+
+          <div>
+          
+
           </div>
     </div>
   )
