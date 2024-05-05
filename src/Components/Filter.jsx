@@ -31,19 +31,19 @@ const Filter = () => {
             
             <div className='w-[85px] h-[72px] bg-best'>
                   <div className='flex items-center justify-center py-2'><ReceiptIndianRupee strokeWidth={1.5} /></div>
-                  <div className='flex justify-center px-1 py-1'>
+                  <div className='flex justify-center px-1 py-3'>
                       <p>Cashback</p>
                   </div>
             </div>
             <div className='w-[85px] h-[72px] bg-best'>
                   <div className='flex items-center justify-center py-2'><Soup strokeWidth={1.5} /></div>
-                  <div className='flex justify-center px-1 py-1'>
+                  <div className='flex justify-center px-1 py-3'>
                       <p>Dine In</p>
                   </div>
             </div>
             <div className='w-[85px] h-[72px] bg-best'>
                   <div className='flex items-center justify-center py-2'><Clapperboard strokeWidth={1.5} /></div>
-                  <div className='flex justify-center px-1 py-1'>
+                  <div className='flex justify-center px-1 py-3'>
                       <p>Movie</p>
                   </div>
             </div>
@@ -55,12 +55,12 @@ const Filter = () => {
 
             {/* desktop side */}
 
-            <div className=' filters xl:px-[100px]  items-center mt-[70px]'>
+            <div className=' filters  items-center mt-[70px]'>
                   <div className='   bg-light py-2 flex   justify-center gap-2 '>
-                          <div className='w-[140px] h-[140px] flex flex-col  items-center justify-center py-2 px-1'>
-                                  <div className='w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><CreditCard size={26} strokeWidth={1} /></div>
+                          <div className='  w-[140px] h-[140px] flex flex-col  items-center justify-center py-2 px-1'>
+                                  <div className='icons   w-[70px] h-[70px] flex justify-center items-center  bg-btn rounded-full'><CreditCard size={26} strokeWidth={1} /></div>
                                   <div className='py-1 flex items-center'>
-                                    <p className='text-sm'>Credit Cards</p>
+                                    <p className='inputs text-sm'>Credit Cards</p>
                                   </div>
                           </div>
                           <div className='w-[140px] h-[140px] flex flex-col  items-center justify-center  py-2 px-1'>

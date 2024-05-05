@@ -12,7 +12,8 @@ export default {
       'best':'#FEF7FF',
       'sky':'#FEEFFF80',
        'lightBlue':'#F6DCF8',
-       'red':'Ff0000'
+       'red':'Ff0000',
+      'grade':'#0B0523',
       
       
       

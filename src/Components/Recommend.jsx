@@ -5,14 +5,14 @@ const Recommend = () => {
     <div className='px-[16px] '>
           <div className='  flex flex-col  lg:flex-row  justify-center py-2 lg:mt-[100px]'>
                <div className='py-3 flex flex-col gap-4 lg:w-[357px] lg:h-[200px] justify-between'>
-                   <p className='text-xl lg:text-3xl font-bold'>Get personalized recommendations with minimal effort. </p>
+                   <p className='text-xl lg:text-3xl font-bold tracking-wider'>Get personalized recommendations with minimal effort. </p>
                    <div className='flex items-center py-2 bg-btn w-[190px] gap-1 justify-center'>
                         <p>Take the first step</p>
                         <CircleArrowRight />
                    </div>
                </div>
 
-               <div className='flex flex-col gap-3 py-2 lg:w-[500px] lg:h-[198px] lg:gap-5'>
+               <div className='flex flex-col gap-3 py-2 lg:w-[500px] lg:h-[198px] lg:gap-5 pl-[50px]'>
                         <div className='flex items-center gap-2'>
                              <div className='bg-btn w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] flex justify-center items-center rounded-full'>
                                 <p className='text-base font-bold px-2 lg:text-xl'>1</p>

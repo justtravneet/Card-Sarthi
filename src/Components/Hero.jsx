@@ -3,8 +3,8 @@ import { Gift ,CircleArrowOutUpRight } from 'lucide-react'
 const Hero = () => {
   return (
     <div className='px-[16px] '>
-          <div className=' justify-center items-center'>
-                   <div>
+          <div className=' justify-center items-center '>
+                   <div className='mt-[20px]'>
                          <img className=' sm:hidden rounded-xl' src="https://s3-alpha-sig.figma.com/img/af55/0cce/48cc45883ddc6ed7d8b8ff193733316b?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IQ6Xy6idKTwwczOi2s808325H5-WLONuGrVIh4EJVwixwHuu9H~ZBHHjIqGx0DxxR6e9ctl7KDHuXxegGRwg6sSrbMie00nkynEq7kzcMS-bzwxXz~X1bSZx5vJtG~RhEQ1mgAbp~oSSy7DvW9d8PxN84o3Um6ygd8RHQSy7szD3Wwvr67F1vAPmvmmaVVW4mhYm57Ro1RasEdMYYnKb8GdaZbsR26hwz~XItCm9E7k5qYn94FNvFwh2R1wlgw8mlSj87~JLwgRCIFRH7QOZBGOqea5OPiB~KULHooou01RdUL-OtHubUPVc2bauqW0EY57kvge490Oge-gsAYZJAw__" alt="" />
                    </div>
 
@@ -73,7 +73,7 @@ const Hero = () => {
                
                   <div className='hero  flex justify-center mt-[30px] 2xl:gap-[10px]'>
                        <div className='w-[450px] py-4 flex flex-col gap-3'>
-                             <p className='text-5xl leading-tight font-semibold'>Pick The Right Credit Card</p>
+                             <p className='text-5xl leading-tight font-semibold tracking-wider'>Pick The Right Credit Card</p>
                              <p>Access a variety of India's best credit cards in one central hub and find the right one for you.</p>
                              <div className='flex gap-1 items-center'>
                                  <a className='text-lg font-medium' href="http://">Know Your Credit Score</a>

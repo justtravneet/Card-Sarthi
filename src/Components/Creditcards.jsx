@@ -2,10 +2,10 @@ import React from 'react'
 
 const Creditcards = () => {
   return (
-    <div className='Credits px-[16px]    mt-[30px] '>
-          <div className='flex items-center  justify-center md:gap-[230px] lg:justify-center xl:justify-center 2xl:justify-center lg:gap-[230px] xl:gap-[230px] 2xl:gap-[230px]'>
+    <div className='result px-[16px]    mt-[30px] '>
+          <div className='flex items-center  justify-center  md:gap-[230px] lg:justify-center xl:justify-center 2xl:justify-center lg:gap-[230px] xl:gap-[230px] 2xl:gap-[230px]'>
                  <div className='w-[400px] h-[130px] flex flex-col  justify-between '>
-                    <p className='text-3xl font-bold'>Credit Cards</p>
+                    <p className='text-3xl font-bold tracking-wider'>Credit Cards</p>
                     <p>Optimize Your Earnings with Our Best Rewards Credit Cards: Find credit cards that maximize your rewards on every purchase.</p>
                  </div>
 
