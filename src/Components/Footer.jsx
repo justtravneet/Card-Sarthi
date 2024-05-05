@@ -2,7 +2,7 @@ import React from 'react'
 import {Instagram ,Facebook ,Twitter,Home ,CreditCard ,Dock , Landmark} from 'lucide-react'
 const Footer = () => {
   return (
-    <div className=''>
+    <div className=' sm:hidden'>
            <div className='flex flex-col py-2 mt-2 bg-light'>
                  <div className='flex flex-col gap-3 px-[16px]'>
                   <p className='text-xl'>Still Having Problem to Choose!</p>

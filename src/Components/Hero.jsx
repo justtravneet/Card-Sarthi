@@ -71,7 +71,7 @@ const Hero = () => {
 
             {/* desktop side    */}
                
-                  <div className='hero  flex justify-center mt-[30px] 2xl:gap-[10px]'>
+                  <div className='hero  flex justify-center mt-[30px] 2xl:gap-[10px] 2xl:mt-[90px] xl:mt-[90px] lg:mt-[90px] md:mt-[90px] '>
                        <div className='w-[450px] py-4 flex flex-col gap-3'>
                              <p className='text-5xl leading-tight font-semibold tracking-wider'>Pick The Right Credit Card</p>
                              <p>Access a variety of India's best credit cards in one central hub and find the right one for you.</p>

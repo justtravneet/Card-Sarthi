@@ -14,6 +14,10 @@ import Cashbackcards from './Components/Cashbackcards'
 import Shoppingcards from './Components/Shoppingcards'
 import Travelcards from './Components/Travelcards'
 import Footer from './Components/Footer'
+import Headerlogo from './Components/Headerlogo'
+import { Nav } from 'react-bootstrap'
+import Footertwo from './Components/Footertwo'
+import Complaint from './Components/Complaint'
 
 
 function App() {
@@ -22,7 +26,7 @@ function App() {
   return (
     <>
     
-      
+      <Headerlogo />
        <Hero />
        <Filter />
        <Creditcards />
@@ -35,7 +39,8 @@ function App() {
        <Shoppingcards />
        <Travelcards /> */}
        <Footer />
-       
+       <Complaint />
+       <Footertwo />
     </>
   )
 }
